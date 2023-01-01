@@ -1,0 +1,67 @@
+:root{
+	--bg-color: #fff;
+	--bg-color-ho: #fff;
+}
+.site-button,
+.box-item-service:hover .item-service-content,
+.box-item-service:hover h5,
+.box-item-service:hover .icon-bx-md{
+    background-color: #6DD5FA;
+}
+.site-button:active,
+.site-button:hover,
+.site-button:focus,
+.active > .site-button,
+.bg-primary-dark
+{
+    background-color: #6DD5FA;
+}
+.about-us{
+	border-right: 4px solid #6DD5FA;
+}
+
+a,
+.text-primary,
+.primary li:before
+{
+    color: #6DD5FA;
+}
+@media only screen and (max-width: 991px) {
+	.nav-dark.header-nav .nav > li > a:hover, 
+	.nav-dark.header-nav .nav > li > a:active, 
+	.nav-dark.header-nav .nav > li > a:focus{
+		color: #6DD5FA;
+	}
+}
+.navbar-toggle,
+.owl-slider-banner .owl-theme .owl-dots .owl-dot.active, 
+.owl-slider-banner .owl-theme .owl-dots .owl-dot:hover
+{
+    border-color: #6DD5FA;
+}
+
+
+.text-secondry {
+    color: #2d3239;
+}
+.overlay-primary-light:after, 
+.overlay-primary-middle:after, 
+.overlay-primary-dark:after,
+.overlay-primary:after,
+.bg-primary{
+	background-color:#0f1706;
+}
+.team-section .team-content,
+.tp-overlay-video{
+	background-color: rgba(15, 23, 6, 0.7);
+}
+
+.site-button.btn-icon i,
+.footer-gradient,
+.home-banner:after,
+.contact-form-bx .input-group:after{
+	background: rgba(15, 23, 6, 0.9);
+}
+.arrow-bx{
+	background-image: url(../../images/arrow-1.png);
+}
